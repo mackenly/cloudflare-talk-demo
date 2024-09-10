@@ -10,7 +10,8 @@
     "pages:build": "npx @cloudflare/next-on-pages",
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "@auth/d1-adapter": "^1.4.2",
