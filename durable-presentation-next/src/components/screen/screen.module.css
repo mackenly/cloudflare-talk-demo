@@ -1,0 +1,24 @@
+.slide {
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /* do not distort the image */
+    object-fit: contain;
+    /* center the image */
+    object-position: center;
+    /* make background color black */
+    background-color: black;
+}
+
+.nextSlide {
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /* do not distort the image */
+    object-fit: contain;
+    /* center the image */
+    object-position: center;
+    /* make background color black */
+    background-color: black;
+    opacity: 0;
+}

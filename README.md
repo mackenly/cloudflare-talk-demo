@@ -19,3 +19,9 @@ Always happy to answer follow-ups, chat about tech, or whatever. Find me on the 
 
 ## License
 Note that this repo is AGPL-3.0 licensed. You are free to use, modify, and distribute the contents (unless otherwise owned) as long as you provide attribution and share-alike. See the [LICENSE](LICENSE) file for more details.
+
+## Deployments and CI/CD
+CD is set up for the Worker server.
+Set secrets for:
+- `CLOUDFLARE_API_TOKEN`
+Connect Pages to the repo under `durable-presentation-next` for preview deployments.

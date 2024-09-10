@@ -1,0 +1,13 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "durable-presentation-next"
+compatibility_date = "2024-09-03"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[placement]
+mode = "smart"
+
+[[d1_databases]]
+binding = "db"
+database_name = "cloudflare-talk-demo"
+database_id = "6743439a-86f5-4521-b8bd-df6e892e15e6"
