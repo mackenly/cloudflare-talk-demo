@@ -8,5 +8,4 @@ interface CloudflareEnv {
     AUTH_EMAIL_FROM: string;
     GITHUB_CLIENT_ID: string;
     GITHUB_CLIENT_SECRET: string;
-    AUTH_TRUST_HOST: string;
 }

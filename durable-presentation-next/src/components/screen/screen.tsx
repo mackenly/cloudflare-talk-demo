@@ -91,19 +91,6 @@ export function ScreenView({ id, username = 'Anon' }: { id: string; username?: s
 		};
 	}, []);
 
-    function handleKey(e: any) {
-            if (e.key === 'ArrowRight') {
-				console.log('Next slide');
-				if (currentWebSocket) {
-					currentWebSocket.send(JSON.stringify({ type: 'next' }));
-				}
-			} else if (e.key === 'ArrowLeft') {
-				if (currentWebSocket) {
-					currentWebSocket.send(JSON.stringify({ type: 'back' }));
-				}
-			}
-        }
-
 	const togglePresentationMode = async () => {
 		if (!isPresentationMode) {
 			try {
